@@ -18,7 +18,7 @@ y - has the client subscribed to a term deposit? (binary)
 Due to the  imbalance in data with a 93% majority  and 7% minority I performed an upsampling to the minority class and added class weights. I trained several modls including XGBoost Classifier,Random Forest,Decision tree,Logistic regression,Perceptron,Linear SVC and Stochastic Gradient Classifier.
 XGBoost gave the best values of F1 score  56% on minority class followed by Random Forest Classifier with f1 score of 46%.
 
-I perfored a Hyperparameter tuning on the two models and Random Forest improved giving the best  f1 score value of 58%.And an overall accuracy of 93%.
+I performed a Hyperparameter tuning on the two models and Random Forest improved giving the best  f1 score value of 58%.And an overall accuracy of 93%.
 Probability prediction on classes shows that at probability threshhold of 0.4 the model gave the best values of f1 scores.
 
 
